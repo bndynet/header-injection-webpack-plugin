@@ -1,0 +1,9 @@
+{
+  "name": "header-injection-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Inject header for files with webpack like copyright...",
+  "scripts": {
+    "start": "../node_modules/webpack-dev-server/bin/webpack-dev-server.js --open",
+    "build": "../node_modules/webpack/bin/webpack.js"
+  }
+}
