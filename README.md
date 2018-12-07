@@ -5,18 +5,18 @@ A webpack plugin to inject header you specified into text files(js, css, html).
 ## Installation
 
 ```bash
-npm i header-injection-webpack-plugin --save-dev
+npm i @bndynet/header-injection-webpack-plugin --save-dev
 ```
 
 ## Usage
 
 ```javascript
-const HeaderInjectionWebpackPlugin = require('header-injection-webpack-plugin');
+const HeaderInjectionWebpackPlugin = require('@bndynet/header-injection-webpack-plugin');
 
 // webpack config
 {
   plugins: [
-    new HeaderInjectionWebpackPlugin([options])
+    new HeaderInjectionWebpackPlugin()
   ]
 }
 ```
@@ -34,6 +34,7 @@ const HeaderInjectionWebpackPlugin = require('header-injection-webpack-plugin');
 **Example**:
 
 ```javascript
+const HeaderInjectionWebpackPlugin = require('@bndynet/header-injection-webpack-plugin');
 const app = require('./package.json');
 
 new HeaderInjectionWebpackPlugin({
