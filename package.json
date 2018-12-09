@@ -1,6 +1,6 @@
 {
   "name": "@bndynet/header-injection-webpack-plugin",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Webpack plugin for injecting header to text files, like copyright...",
   "main": "index.js",
   "scripts": {
